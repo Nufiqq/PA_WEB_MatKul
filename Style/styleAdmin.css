@@ -7,53 +7,38 @@
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 50px;
-
     background-image: linear-gradient(to top right, rgb(187, 145, 96), #EBDECF);
+}
+
+b{
     color: white;
 }
 
-.judul {
-    display: flex;
-    align-items: center;
-}
-
-h1 {
-    margin-left: 30px;
-}
-
-.nav {
-    display: flex;
-    align-items: center;
-}
-
 .nav a{
+    margin-top: 0;
     text-decoration: none;
     color: white;
 }
 
 .nav :hover{
-  color:  rgb(187, 145, 96);
-}
-
-.produk{
-  padding-right: 30px;
+  color: rgb(187, 145, 96);
 }
 
 .tombol {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.tombol a:hover{
+    color: white;
+    text-decoration: none;
 }
 
 .button {
-	display: flex;
-	justify-content: center;
 	text-align: center;
-	margin: 30px;
-	width:100px;
+	width:25%;
 	text-decoration: none;
 	padding: 8px 5px;
 	border-radius: 5px;
